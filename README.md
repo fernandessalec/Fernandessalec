@@ -83,3 +83,61 @@ document.getElementByld('minute').style.tranform = `rotate(${secondDeg}deg)`;
 </script>
 </body>
 </html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Digital Analog Clock</title>
+<style>
+#clock {
+  width: 200px;
+  height: 200px;
+  border: 10px solid #333;
+  border-radius: 50%;
+  margin: 50px auto;
+  position: relative;
+}
+#hour, #minute, #second {
+  position: absolute;
+  width: 50%;
+  height: 2px;
+  top: 50%;
+  transform-origin: 100%;
+  transition: all 0.5s;
+}
+#hour {
+  background: #333;
+}
+#minute {
+  background: #666;
+}
+#second {
+  background: #f00;
+}
+</style>
+</head>
+<body>
+<div id="clock">
+  <div id="hour"></div>
+  <div id="minute"></div>
+  <div id="second"></div>
+</div>
+<script>
+setInterval(updateClock, 1000);
+function updateClock() {
+  let date = new Date();
+  let hours = date.getHours() % 12;
+  let minutes = date.getMinutes();
+  let seconds = date.getSeconds();
+  let hourDeg = (hours * 30) + (0.5 * minutes);
+  let minuteDeg = (minutes * 6) + (0.1 * seconds);
+  let secondDeg = seconds * 6;
+
+  document.getElementById('hour').style.transform = `rotate(${hourDeg}deg)`;
+  document.getElementById('minute').style.transform = `rotate(${minuteDeg}deg)`;
+  document.getElementById('second').style.transform = `rotate(${secondDeg}deg)`;
+}
+</script>
+</body>
+</html>
