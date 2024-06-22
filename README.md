@@ -1,5 +1,5 @@
 # Salve quebrada!!
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)]([(https://www.instagram.com/fernandessalec/)](https://www.instagram.com/fernandessalec_/))
+
 <a href = "mailto:alec_nunes@estudante.sesisenai.org.br"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
 
 <div align="center">
