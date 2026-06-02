@@ -25,7 +25,7 @@
 </div>
 
 ###
-<h2 align="center"> DEV de Software Junior da INFITYWORK </h2>
+<h2 align="center"> DEV de Software </h2>
 
 
 
