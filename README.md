@@ -1,4 +1,4 @@
-<h1 align='center'> Salve quebrada!! </h1>
+<h1 align='center'> Bem vindo(a) </h1>
 
 <a  href = "mailto:alecnunes704@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
 
